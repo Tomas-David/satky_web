@@ -4,7 +4,7 @@
     font-size: 16px;
     font-family: Helvetica, sans-serif
 }
-@media screen  and (max-width: 400px){
+@media screen  and (max-width: 767px){
     .offscreen-menu{
         background-color: black;
         color: white;
@@ -85,12 +85,87 @@
     .logo{
         width: 5em;
     }
+
+    .brand-logo{
+        display: none;
+    }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+    .offscreen-menu{
+        background-color: black;
+    }
+
+    .offscreen-menu  ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offscreen-menu li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding-left: 3em;
+    }
+
+    .offscreen-menu li a:hover{
+        text-decoration: underline;
+    }
+
+    .brand-logo{
+        width: 5em;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .logo{
+        display: none;
+    }
+
+    .brand-logo{
+        width: 5em;
+    }
+
+    .offscreen-menu{
+        background-color: black;
+    }
+
+    .offscreen-menu  ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .offscreen-menu li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    .offscreen-menu li a:hover{
+        text-decoration: underline;
+    }
+
+
+}
+
+
     .banner{
         background: rgba(0, 0, 0, .40) url(../pictures/produkty_uvod.jpg);
         background-blend-mode: darken;
         background-size: cover;
+        background-position: center;
         margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        height: 15em;
+        
     }
 
     
@@ -99,6 +174,8 @@
         width: 50%;
         color: white;
         padding: .5em;
+        display: flex;
+        flex-direction: column;
     }
 
     .banner__button{
@@ -127,6 +204,7 @@
     align-items: center;
     color:white;
     background-color: black;
+
 }
 
 .about-Me__heading{
@@ -135,17 +213,22 @@
 
 .about-Me__text{
     text-align: center;
+    padding: .5em;
+    width: 50%;
 }
 
 footer{
     background-color: black;
     padding: 1em;
     margin-top: 3em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .main-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
