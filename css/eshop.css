@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) and (max-width: 1920px){
+
+    .card-layout{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+    
+}
+
+
+@media screen and (min-width: 1441px){
+    .card-layout{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 200%;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid black 1px;
+}
+
+
+
+.card__des{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 1em;
+}
+
+
+
+.img-responsive{
+    width: 100%;
+}

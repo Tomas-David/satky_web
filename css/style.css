@@ -97,7 +97,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1920px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .offscreen-menu{
         background-color: black;
     }
@@ -129,6 +129,12 @@
     }
 
     footer{
+        background-color: black;
+        padding: 1em;
+        margin-top: 3em;
+    }
+
+    .main-footer--fixed{
         background-color: black;
         padding: 1em;
         margin-top: 3em;
@@ -168,7 +174,67 @@
         text-decoration: underline;
     }
     
+    footer{
+        background-color: black;
+        padding: 1em;
+        margin-top: 3em;
+    }
 
+    .main-footer--fixed{
+        background-color: black;
+        padding: 1em;
+        margin-top: 3em;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1441px){
+    .logo{
+        display: none;
+    }
+
+    .brand-logo{
+        width: 5em;
+    }
+
+    .offscreen-menu{
+        background-color: black;
+    }
+
+    .offscreen-menu  ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .offscreen-menu li a{
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    .offscreen-menu li a:hover{
+        text-decoration: underline;
+    }
+
+    footer{
+        background-color: black;
+        padding: 1em;
+        margin-top: 3em;
+    }
+
+    .main-footer--fixed{
+        background-color: black;
+        padding: 1em;
+        margin-top: 3em;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
 }
 
 
@@ -180,6 +246,8 @@
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         height: 15em;
+        
+        
         
     }
 
@@ -238,7 +306,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
+
+
 
 .footer-List{
     list-style: none;
