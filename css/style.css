@@ -238,6 +238,18 @@
 }
 
 
+.offscreen-menu__link{
+    text-decoration: none;
+    color:white;   
+}
+
+
+.offscreen-menu__link:hover{
+    text-decoration: underline;  
+}
+
+
+
     .banner{
         background: rgba(0, 0, 0, .40) url(../pictures/produkty_uvod.jpg);
         background-blend-mode: darken;
@@ -333,3 +345,4 @@
 .footer__text{
     color:white
 }
+
