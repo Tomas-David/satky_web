@@ -139,10 +139,12 @@
         background-color: black;
         padding: 1em;
         margin-top: 3em;
-        bottom: 0;
-        position: fixed;
-        width: 100%;
         
+        
+    }
+
+    .about-Me__pictures--small{
+        width: 50%;
     }
 }
 
@@ -183,10 +185,12 @@
         background-color: black;
         padding: 1em;
         margin-top: 3em;
-        bottom: 0;
-        position: fixed;
-        width: 100%;
         
+        
+    }
+
+    .about-Me__pictures--small{
+        width: 50%;
     }
 }
 
@@ -228,13 +232,13 @@
         background-color: black;
         padding: 1em;
         margin-top: 3em;
-        bottom: 0;
-        position: fixed;
-        width: 100%;
+        
         
     }
 
-    
+    .about-Me__pictures--small{
+        width: 25%;
+    }
 }
 
 
@@ -309,11 +313,6 @@
     width: 50%;
 }
 
-
-
-
-
-
 .footer-List{
     list-style: none;
     padding: 0;
@@ -335,5 +334,18 @@
 
 .footer__text{
     color:white
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.about-Me__pictures{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
 
