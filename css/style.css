@@ -90,10 +90,14 @@
         display: none;
     }
 
-    footer{
+
+    .main-footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         background-color: black;
         padding: 1em;
-        margin-top: 3em;
+        margin-top: 3em;       
     }
 }
 
@@ -128,19 +132,17 @@
         display: none;
     }
 
-    footer{
-        background-color: black;
-        padding: 1em;
-        margin-top: 3em;
-    }
-
-    .main-footer--fixed{
+    .main-footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         background-color: black;
         padding: 1em;
         margin-top: 3em;
         bottom: 0;
         position: fixed;
         width: 100%;
+        
     }
 }
 
@@ -174,19 +176,17 @@
         text-decoration: underline;
     }
     
-    footer{
-        background-color: black;
-        padding: 1em;
-        margin-top: 3em;
-    }
-
-    .main-footer--fixed{
+    .main-footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         background-color: black;
         padding: 1em;
         margin-top: 3em;
         bottom: 0;
         position: fixed;
         width: 100%;
+        
     }
 }
 
@@ -221,20 +221,20 @@
         text-decoration: underline;
     }
 
-    footer{
-        background-color: black;
-        padding: 1em;
-        margin-top: 3em;
-    }
-
-    .main-footer--fixed{
+    .main-footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         background-color: black;
         padding: 1em;
         margin-top: 3em;
         bottom: 0;
         position: fixed;
         width: 100%;
+        
     }
+
+    
 }
 
 
@@ -258,9 +258,6 @@
         margin-top: 1.5em;
         margin-bottom: 1.5em;
         height: 15em;
-        
-        
-        
     }
 
     
@@ -314,18 +311,12 @@
 
 
 
-.main-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
 
 
 
 .footer-List{
     list-style: none;
-    
+    padding: 0;
 }
 
 

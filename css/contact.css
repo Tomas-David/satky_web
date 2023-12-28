@@ -1,0 +1,31 @@
+.main-heading{
+    text-align: center;
+    font-size: 200%;
+}
+
+
+.email-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+}
+
+footer{
+        background-color: black;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+}
+
+footer ul{
+    padding: 0;
+}
+
