@@ -2,7 +2,7 @@
 
     .card-layout{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     
@@ -13,7 +13,7 @@
 @media screen and (min-width: 1441px){
     .card-layout{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
     }
 
     
@@ -45,11 +45,4 @@
 
 .img-responsive{
     width: 100%;
-}
-
-.main-footer--unfixed{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: black;
 }
