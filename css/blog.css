@@ -28,7 +28,6 @@
     grid-template-columns: 1fr 1fr;
     background-color: #6A4343C7;
     color: white;
-    opacity: 78%;
 }
 
 .blog__article-heading{
@@ -74,6 +73,10 @@
 
     .blog__btn-more:hover{
         text-decoration: underline;
+    }
+
+    .blog__article{
+        opacity: 78%;
     }
 }
 
